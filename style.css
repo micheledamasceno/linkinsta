@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Paytone+One&family=Playwrite+VN:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Paytone+One&family=Playwrite+VN:wght@100..400&family=Unbounded:wght@200..900&display=swap");
+
+body {
+  background-color: aquamarine;
+  overflow-y: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Ocupa toda a largura */
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+}
+section {
+  margin: 0 auto; /* Centraliza horizontalmente */
+  max-width: 100%; /* Define uma largura máxima */
+  width: 100%; /* Faz o elemento ser responsivo */
+}
+h1 {
+  font-family: "Paytone One", serif;
+  padding-top: 15px;
+  color: #ffffff;
+  font-size: 20px;
+}
+.fundo01 {
+  padding: 2cqi;
+  background-color: rgb(138, 178, 208);
+}
+.fundo02 {
+  padding: 2cqi;
+  background-color: rgb(23, 80, 107);
+}
+.fundo03 {
+  padding: 2cqi;
+  background-color: rgb(138, 178, 208);
+}
+.fundo04 {
+  padding: 2cqi;
+  background-color: rgb(1, 41, 59);
+}
+.logo {
+  margin-top: 45px;
+  width: 30%;
+  max-width: 150px;
+  align-items: center;
+  border-radius: 2cm;
+}
+/* Filhotes Diponíveis */
+.click {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+.click a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/*manipulação dos icones*/
+.click-ico {
+  padding: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.click-ico i,
+.click-ico a {
+  font-size: 1.2rem;
+  color: #000000;
+  text-decoration: none;
+}
