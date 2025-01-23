@@ -63,12 +63,15 @@ h1 {
 /*manipulação dos icones*/
 .click-ico {
   padding: 15px;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 .click-ico i,
 .click-ico a {
   font-size: 1.2rem;
+  font-weight: bold;
   color: #000000;
   text-decoration: none;
+
 }
